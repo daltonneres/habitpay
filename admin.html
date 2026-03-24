@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HabitBank Admin</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+
+<!-- LOGIN -->
+<div class="login" id="login">
+  <h2>Acesso Admin</h2>
+
+  <input type="text" id="user" placeholder="Usuário">
+  <input type="password" id="pass" placeholder="Senha">
+
+  <button onclick="logar()">Entrar</button>
+</div>
+
+<!-- PAINEL -->
+<div class="container" id="painel" style="display:none;">
+  <h1>📊 Painel de Leads</h1>
+  <p>Leads captados pelo HabitBank</p>
+
+  <div class="cards" id="lista"></div>
+</div>
+
+<script type="module" src="admin.js"></script>
+
+</body>
+</html>
