@@ -396,3 +396,28 @@ footer {
   background: #22C55E;
   color: #020617;
 }
+
+.store {
+  text-align: center;
+}
+
+.store-image {
+  margin-top: 30px;
+}
+
+.store-image img {
+  max-width: 100%;
+  height: auto;
+  width: 420px;
+  transition: 0.3s;
+}
+
+.store-image img:hover {
+  transform: scale(1.05);
+}
+
+.store-note {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #64748b;
+}
