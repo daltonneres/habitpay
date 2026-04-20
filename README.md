@@ -1,1 +1,1 @@
-# habitpay
+# HabitPAY
