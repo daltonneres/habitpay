@@ -28,7 +28,7 @@ window.logar = function() {
 
   if (
     user === "habitpay" &&
-    (pass === "daltonadm")
+    (pass === "daltonadm" || pass === "anamariaadm")
   ) {
     document.getElementById("login").style.display = "none";
     document.getElementById("painel").style.display = "block";
