@@ -27,8 +27,8 @@ window.logar = function() {
   const pass = document.getElementById("pass").value;
 
   if (
-    user === "habitpay" &&
-    (pass === "daltonadm" || pass === "anamariaadm")
+user === "habitpay" &&
+(pass === "daltonadm" || pass === "anamariaadm" || pass === "leoadm")
   ) {
     document.getElementById("login").style.display = "none";
     document.getElementById("painel").style.display = "block";
