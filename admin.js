@@ -28,8 +28,7 @@ window.logar = function() {
 
   if (
 user === "habitpay" &&
-(pass === "daltonadm" || pass === "anamariaadm" || pass === "leoadm")
-  ) {
+(pass === "daltonadm" || pass === "anamariaadm" || pass === "leoadm" || pass === "viniadm")  ) {
     document.getElementById("login").style.display = "none";
     document.getElementById("painel").style.display = "block";
 
