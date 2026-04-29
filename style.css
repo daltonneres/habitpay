@@ -133,18 +133,18 @@ body {
 
 /* CARDS */
 .cards {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 lado a lado */
   gap: 20px;
-  justify-content: center;
   margin-top: 40px;
-  flex-wrap: wrap;
 }
 
+/* CARD */
 .card {
   background: #020617;
   padding: 25px;
   border-radius: 12px;
-  width: 260px;
+  width: 100%; /* importante pro grid */
   transition: 0.3s;
   border: 1px solid #1E293B;
   position: relative;
@@ -168,6 +168,19 @@ body {
 .card:hover {
   transform: translateY(-8px) scale(1.02);
   border-color: #22C55E;
+}
+
+/* RESPONSIVO */
+@media (max-width: 1024px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* POINTSPAY */
